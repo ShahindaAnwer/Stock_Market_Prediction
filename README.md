@@ -2,7 +2,7 @@
 
 ### Libraries: 
 - [Tensorflow - Keras](https://www.tensorflow.org/api_docs/python/tf/keras)
-- [Yfinance]
+- Yfinance
 - [Plotly](https://plotly.com/)
 - [Numpy](http://numpy.org/)
 - [Pandas](https://pandas.pydata.org/)
