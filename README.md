@@ -14,9 +14,6 @@ The model I built is a simple RNN model, using bidirectional LSTM
 - [Numpy](http://numpy.org/)
 - [Pandas](https://pandas.pydata.org/)
 
-### Data: 
-Google's stock datas using the 'GOOGL' ticker
-
 ### Accuracy:
 - loss: 0.0174 
 - val_loss: 1.0265
