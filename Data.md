@@ -16,4 +16,4 @@ The data looks like this
 - low: the lowest price a security or asset has been traded at
 - close: the end of a trading session in the financial markets when the markets close for the day
 - adjusted close: the closing price after adjustments for all applicable splits and dividend distributions
-- volume: 
+- volume: the number of shares traded in a stock or contracts traded in futures or options
