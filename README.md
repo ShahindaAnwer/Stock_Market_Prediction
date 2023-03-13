@@ -8,6 +8,12 @@ Time series prediction data are basically non-stationary data, this includes sto
 
 ![pass](https://user-images.githubusercontent.com/62629426/224587004-4d1b7195-3c5e-44a2-bbfd-ba8b8ad1ce54.png)
 
-This is an example of a plot of airline passengers
+                  This is an example of a plot of airline passengers but it pretty much shows how time series data looks like
+
+It is important to take account of the squence of data, this is done by splitting the data.
+
+
+
+
 
 Reference: https://www.tableau.com/learn/articles/time-series-analysis
