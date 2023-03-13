@@ -24,6 +24,7 @@ Each LSTM has:
 - [Numpy](http://numpy.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
-- [Numpy](http://numpy.org/)
+- [Scikitlearn](https://scikit-learn.org/stable/)
+- [Math](https://docs.python.org/3/library/math.html)
 
 ### Accuracy:
