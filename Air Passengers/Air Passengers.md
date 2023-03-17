@@ -3,14 +3,15 @@
 ## Problem Statement
 Airlines use time series prediction to predict the number of passengers they would be getting per month, based on previous calculations as well as the current day's data. The model tries to predict the number of passengers (in units of thousands) in one month, given the number of passemgers the previous month
 
-![air](https://user-images.githubusercontent.com/62629426/224588514-bd9f8ffb-b0ea-44b4-8b85-bb6853598fda.PNG)
-
+<p align="center">
+    <img src = 'https://user-images.githubusercontent.com/62629426/224588514-bd9f8ffb-b0ea-44b4-8b85-bb6853598fda.PNG' width = '800'>
+</p>
 
 ## Model
 
 I used Long short term memory (LSTM) as we are dealing with time steps. LSTMs have memory blocks that help them remember previous data. Each memory block has gates, which manage its state and the output. Using the Sigmoid activation function, each block decides whether or not it gets triggered, upon receiving an input sequence. Hence, the state change and information addition both flow conditionally.
 
-![lstm](https://user-images.githubusercontent.com/62629426/224588703-bbe89a8b-4070-41d5-b7be-4bce020b748a.PNG)
+![lstm](https://user-images.githubusercontent.com/62629426/225827754-b2d1d573-7c7e-4d64-b9ef-2041cbd12517.png)
 
 Each LSTM has: 
 1. Forget gate: Determines which information should be discarded
@@ -28,3 +29,6 @@ Each LSTM has:
 - [Math](https://docs.python.org/3/library/math.html)
 
 ### Accuracy:
+- Train loss : 0.0024 
+- val_loss: 0.0079
+- RMSE = 30.34
