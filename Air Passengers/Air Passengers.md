@@ -29,6 +29,6 @@ Each LSTM has:
 - [Math](https://docs.python.org/3/library/math.html)
 
 ### Accuracy:
-- Train loss : 0.0024 
+- Train loss: 0.0024 
 - val_loss: 0.0079
-- RMSE = 30.34
+- RMSE: 30.34
